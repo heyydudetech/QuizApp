@@ -29,12 +29,17 @@ body {
 }
 
 h2 {
+    padding: 1rem;
+    text-align: center;
     margin: 0;
 }
 
 ul li {
     font-size: 1.1rem;
     margin: 1rem 0;
+}
+ul li label {
+    cursor: pointer;
 }
 
 ul {
@@ -56,5 +61,11 @@ button {
 
 button:hover {
     background-color: #0a68a7;
+}
+
+button:focus {
+    background-color: #0a68a7;
+    outline: none;
+
 }
 
